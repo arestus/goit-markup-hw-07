@@ -19,8 +19,7 @@
 ::before {
   box-sizing: border-box;
 }
-
-body {
+* body {
   background-color: var(--primary-white-color);
 
   font-family: 'Roboto', sans-serif;

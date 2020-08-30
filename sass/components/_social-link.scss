@@ -1,0 +1,114 @@
+.sociallink-list {
+  margin-top: 16px;
+  list-style: none;
+  display: flex;
+  padding-bottom: 24px;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.sociallink-list .item {
+  margin-right: 0;
+}
+
+.sociallink-list .item + .item {
+  margin-left: 10px;
+}
+
+.social-links {
+  margin-right: 30px;
+  width: 270px;
+}
+
+.item {
+  padding-left: 0;
+}
+
+.social-links .social-list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-links .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-links p {
+  margin: 0;
+}
+
+.future-icon {
+  background-color: #f5f4fa;
+  padding: 25px 100px 25px 100px;
+  border-radius: 4px;
+  display: block;
+  width: 270px;
+  height: 120px;
+}
+
+.sociallink-icon {
+  fill: #afb1b8;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img-social:focus,
+.img-social:hover {
+  background-color: #2196f3;
+}
+
+.img-social:focus .sociallink-icon,
+.img-social:hover .sociallink-icon {
+  fill: #ffffff;
+}
+
+.socialfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socialfooter-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+  margin-top: 16px;
+  width: 20px;
+  height: 20px;
+
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socialfooter:hover,
+.socialfooter:focus {
+  background-color: #2196f3;
+}
+
+.socialfooter:focus .socialfooter-icon,
+.socialfooter:hover .socialfooter-icon {
+  fill: #ffffff;
+}
