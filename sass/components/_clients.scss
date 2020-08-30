@@ -21,11 +21,12 @@
   margin: 0;
   padding-left: 0;
   justify-content: space-between;
+
+  & .item:nth-child(6n) {
+    margin-right: 0;
+  }
 }
 
-.clients-list .item:nth-child(6n) {
-  margin-right: 0;
-}
 .client {
   display: flex;
   align-items: center;
@@ -56,6 +57,12 @@
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+    cursor: pointer;
+  }
 }
 
 .item:hover .img-client {
@@ -65,12 +72,6 @@
 
 .clients-list a:focus {
   border: 1px solid #2196f3;
-}
-
-.clients-list .item:hover,
-.clients-list .item:focus {
-  border: 1px solid #2196f3;
-  cursor: pointer;
 }
 
 .client:focus .img-client {

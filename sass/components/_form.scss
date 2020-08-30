@@ -28,6 +28,16 @@
   margin-bottom: 28px;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  & input:focus,
+  & textarea:focus {
+    outline-color: $accent-color;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  & input:focus ~ .icon-form {
+    fill: $accent-color;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .form-label {
@@ -83,12 +93,6 @@
   color: #757575;
 }
 
-.form-field input:focus,
-.form-field textarea:focus {
-  outline-color: $accent-color;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .comment-textarea {
   padding: 12px;
   resize: none;
@@ -99,10 +103,6 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field input:focus ~ .icon-form {
-  fill: $accent-color;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .modal-form .checkbox-label {
   display: flex;
   align-items: center;
@@ -165,8 +165,8 @@
   background-color: transparent;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.input-footer:focus {
-  border-color: $accent-color;
+  &:focus {
+    border-color: $accent-color;
+  }
 }

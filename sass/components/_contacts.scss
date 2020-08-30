@@ -13,11 +13,11 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
-}
 
-.contacts .link:hover,
-.contacts .link:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .contacts a {
