@@ -490,8 +490,7 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover,
-.link:focus {
+.link:hover, .link:focus {
   color: #2196f3;
 }
 
@@ -913,17 +912,6 @@ img {
   margin-right: 0;
 }
 
-.teammates-list h3 {
-  color: #212121;
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
 .teammates-list {
   list-style: none;
   padding-left: 0;
@@ -934,6 +922,17 @@ img {
       flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.teammates-list h3 {
+  color: #212121;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .teammates-list > .item {
