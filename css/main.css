@@ -391,7 +391,7 @@ img {
 
 * body {
   background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -729,7 +729,7 @@ img {
 
 .logo {
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -742,7 +742,7 @@ img {
 
 .accent {
   color: #2196f3;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-right: 10px;
   font-weight: 700;
   font-size: 26px;
@@ -816,7 +816,7 @@ img {
 
 .title-advantages {
   color: #212121;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1504,7 +1504,7 @@ img {
 }
 
 .address-footer {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   list-style: none;
